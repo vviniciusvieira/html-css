@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+#nome{ /* Nome no header*/
+    position: absolute;
+    text-indent: 130px;
+    font-size: 3em;
+    color: #f2f2f2;
+}
+header{ /* Settings gerais da header*/
+    background-color: #739CBF;
+    margin-bottom: 100px;
+}
+.barra{ /* Classe da nav*/
+    background-color: #000000;
+    width: 1294px;
+    list-style-type: none;
+    font-size: 24px;
+    margin-top: 0px;
+    float: left;
+}
+.barra li{ /* li's da nav*/
+    display: inline-block;
+    border: 1px solid #f2f2f2;
+    margin: 10px;
+    padding: 5px;
+}
+.barra a li:hover{
+    background-color: gray;
+}
+.barra a li:active{
+    background-color: #0A6AA6;
+}
+.barra a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.barra a li:visited{
+    color: #f2f2f2;
+}
+h1, h2, h3{ /* Titulos gerais*/
+    color: #000000;
+    text-align: center;
+}
+body{
+    background-image: radial-gradient(circle, #0A6AA6, #023859);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(27, 26, 26, 0.26);
+    padding: 10px;
+    margin: auto;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.158);
+}
+.bar div{
+    display: inline-block;
+}
+#sidebar{
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(27, 26, 26, 0.26);
+    margin: 25px;
+    padding: 10px;
+}
+#sidebart{
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(27, 26, 26, 0.26);
+    margin-top: 25px;
+    margin-left: 816px;
+    padding: 10px;
+}
